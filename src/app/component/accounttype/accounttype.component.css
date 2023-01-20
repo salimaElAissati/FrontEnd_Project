@@ -1,0 +1,64 @@
+.account-type {
+    width: fit-content;
+    block-size: fit-content;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+}
+
+.define-account-type {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.define-account-type h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.define-account-type .btn-box {
+    border: 2px solid #ccc;
+    border-radius: 18px;
+    outline: none;
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.define-account-type .btn-box:hover {
+    border: 2px solid #000;
+}
+
+.btn-box .btn-box-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 13px 0;
+}
+
+.note-div {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

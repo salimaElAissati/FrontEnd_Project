@@ -1,0 +1,51 @@
+.home-container {
+    background-image: url("../../assets/images/hero2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    background: linear-gradient(120deg, #ff5f5f 0%, #5b8dfe 90%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.1;
+    font-family: Nunito, Open Sans, Roboto, Open Sans, sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.hero-content {
+    width: fit-content;
+    block-size: fit-content;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-claim {
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: fit-content;
+    box-sizing: fit-content;
+    margin: 30px auto;
+    box-shadow: 0 0 13px rgb(159, 155, 155);
+}
+
+.claim-btn {
+    background-color: #1ac0ff;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
